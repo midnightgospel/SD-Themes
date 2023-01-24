@@ -4,7 +4,7 @@
  	"author": "Midnight",
  	"target": "Other",
  	"version": "v1.0",
- 	"description": "Loads a custom loading screen. 3 Presets are included along with the ability to set and modify your own. GIFs are supported. Currently image location only works well with smaller GIFs (240px x 240px). Example folder included. Examples are to be used with black background.",
+ 	"description": "Loads a custom loading screen. 3 Presets are included along with the ability to set and modify your own. GIFs are supported. Currently image location only works well with smaller GIFs (240px x 240px) on the local Steam Deck screen (I am working on a fix for this). Example folder included. Examples are to be used with black background.",
  	"manifest_version": 5,
  	"inject": {},
  	"dependencies": {},
