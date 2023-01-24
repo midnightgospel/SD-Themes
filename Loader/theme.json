@@ -1,0 +1,135 @@
+ {
+ 	"id": "2a1f1a0b-c9bf-41a4-9950-f101ff2fe839",
+ 	"name": "Loader",
+ 	"author": "Midnight",
+ 	"target": "Other",
+ 	"version": "v1.0",
+ 	"description": "Loads a custom loading screen. 3 Presets are included along with the ability to set and modify your own. GIFs are supported. Currently image location only works well with smaller GIFs (240px x 240px). Example folder included. Examples are to be used with black background.",
+ 	"manifest_version": 5,
+ 	"inject": {},
+ 	"dependencies": {},
+ 	"patches": {
+ 		"Choose Loader": {
+ 			"type": "dropdown",
+ 			"default": "Loading Buddy",
+ 			"values": {
+ 				"Loading Buddy": {
+ 					"css/loadingbuddy.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"Labs": {
+ 					"css/labs.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"Cat": {
+ 					"css/cat.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"Custom": {
+ 					"css/custom.css": [
+ 						"SP"
+ 					]
+ 				}
+ 			},
+ 			"components": [{
+ 					"name": "Custom Image",
+ 					"type": "image-picker",
+ 					"on": "Custom",
+ 					"default": "Loader/images/loadingbuddy.gif",
+ 					"css_variable": "loader-image",
+ 					"tabs": [
+ 						"SP"
+ 					]
+ 				},
+ 				{
+ 					"name": "Background Color",
+ 					"type": "color-picker",
+ 					"on": "Custom",
+ 					"default": "#000000",
+ 					"css_variable": "loader-color",
+ 					"tabs": [
+ 						"SP"
+ 					]
+ 				}
+ 			]
+ 		},
+ 		"Custom Image Scale": {
+ 			"type": "slider",
+ 			"default": "0",
+ 			"values": {
+ 				"-3": {
+ 					"css/scale/25.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"-2": {
+ 					"css/scale/50.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"-1": {
+ 					"css/scale/75.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"0": {
+ 					"css/scale/100.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"1": {
+ 					"css/scale/125.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"2": {
+ 					"css/scale/150.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"3": {
+ 					"css/scale/175.css": [
+ 						"SP"
+ 					]
+ 				}
+ 			},
+ 			"components": []
+ 		},
+ 		"Custom Image Location For Small GIFs": {
+ 			"type": "dropdown",
+ 			"default": "Center",
+ 			"values": {
+ 				"Center": {
+ 					"css/position/center.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"Top Left": {
+ 					"css/position/topleft.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"Top Right": {
+ 					"css/position/topright.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"Bottom Left": {
+ 					"css/position/bottomleft.css": [
+ 						"SP"
+ 					]
+ 				},
+ 				"Bottom Right": {
+ 					"css/position/bottomright.css": [
+ 						"SP"
+ 					]
+ 				}
+ 			},
+ 			"components": []
+ 		}
+
+ 	}
+ }
