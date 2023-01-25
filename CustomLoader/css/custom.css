@@ -2,7 +2,7 @@
     background: var(--loader-color);
 }
 .loadingthrobber_Container_3sa1N img {
-    content: var(--loader-image);
+ content: var(--loader-image);
 	width: auto;
 	height: auto;
 	transform: var(--loader-scale);
