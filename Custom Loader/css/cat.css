@@ -3,7 +3,7 @@
 }
 
 .loadingthrobber_Container_3sa1N img {
-    content: url(/themes_custom/Custom Loader/images/cat.gif);
+    content: url("/themes_custom/Custom%20Loader/images/cat.gif");
     height: 50%;
     width: 50%;
 }
