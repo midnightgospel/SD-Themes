@@ -61,37 +61,44 @@
  			"default": "0",
  			"values": {
  				"-3": {
- 					"css/scale/25.css": [
+ 					"--loader-scale": [
+       "scale(0.25)"
  						"SP"
  					]
  				},
  				"-2": {
- 					"css/scale/50.css": [
+ 					"--loader-scale": [
+       "scale(0.50)"
  						"SP"
  					]
  				},
  				"-1": {
- 					"css/scale/75.css": [
+ 					"--loader-scale": [
+       "scale(0.75)"
  						"SP"
  					]
  				},
  				"0": {
- 					"css/scale/100.css": [
+ 					"--loader-scale": [
+       "scale(1)"
  						"SP"
  					]
  				},
  				"1": {
- 					"css/scale/125.css": [
+ 					"--loader-scale": [
+       "scale(1.25)"
  						"SP"
  					]
  				},
  				"2": {
- 					"css/scale/150.css": [
+ 					"--loader-scale": [
+       "scale(1.5)"
  						"SP"
  					]
  				},
  				"3": {
- 					"css/scale/175.css": [
+ 					"--loader-scale": [
+       "scale(1.75)"
  						"SP"
  					]
  				}
@@ -103,27 +110,32 @@
  			"default": "Center",
  			"values": {
  				"Center": {
- 					"css/position/center.css": [
+ 							"--loader-position": [
+         "(center)"
  						"SP"
  					]
  				},
  				"Top Left": {
- 					"css/position/topleft.css": [
+ 					"--loader-position": [
+       "(-160% -60%)"
  						"SP"
  					]
  				},
  				"Top Right": {
- 					"css/position/topright.css": [
+ 					"--loader-position": [
+       "(260% -60%)"
  						"SP"
  					]
  				},
  				"Bottom Left": {
- 					"css/position/bottomleft.css": [
+ 					"--loader-position": [
+       "(-160% 150%)"
  						"SP"
  					]
  				},
  				"Bottom Right": {
- 					"css/position/bottomright.css": [
+ 					"--loader-position": [
+       "(260% 150%)"
  						"SP"
  					]
  				}
