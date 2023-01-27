@@ -111,31 +111,31 @@
  			"values": {
  				"Center": {
  							"--loader-position": [
-         "(center)",
+         "center",
  						"SP"
  					]
  				},
  				"Top Left": {
  					"--loader-position": [
-       "(-160% -60%)",
+       "-160% -60%",
  						"SP"
  					]
  				},
  				"Top Right": {
  					"--loader-position": [
-       "(260% -60%)",
+       "260% -60%",
  						"SP"
  					]
  				},
  				"Bottom Left": {
  					"--loader-position": [
-       "(-160% 150%)",
+       "-160% 150%",
  						"SP"
  					]
  				},
  				"Bottom Right": {
  					"--loader-position": [
-       "(260% 150%)",
+       "260% 150%",
  						"SP"
  					]
  				}
