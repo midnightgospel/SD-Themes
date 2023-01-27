@@ -38,7 +38,7 @@
  					"name": "Custom Image",
  					"type": "image-picker",
  					"on": "Custom",
- 					"default": "CustomLoader/images/small GIFs/loadingbuddy.gif",
+ 					"default": "Custom%20Loader/images/small GIFs/loadingbuddy.gif",
  					"css_variable": "loader-image",
  					"tabs": [
  						"SP"
