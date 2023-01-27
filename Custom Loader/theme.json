@@ -62,43 +62,43 @@
  			"values": {
  				"-3": {
  					"--loader-scale": [
-       "scale(0.25)"
+       "scale(0.25)",
  						"SP"
  					]
  				},
  				"-2": {
  					"--loader-scale": [
-       "scale(0.50)"
+       "scale(0.50)",
  						"SP"
  					]
  				},
  				"-1": {
  					"--loader-scale": [
-       "scale(0.75)"
+       "scale(0.75)",
  						"SP"
  					]
  				},
  				"0": {
  					"--loader-scale": [
-       "scale(1)"
+       "scale(1)",
  						"SP"
  					]
  				},
  				"1": {
  					"--loader-scale": [
-       "scale(1.25)"
+       "scale(1.25)",
  						"SP"
  					]
  				},
  				"2": {
  					"--loader-scale": [
-       "scale(1.5)"
+       "scale(1.5)",
  						"SP"
  					]
  				},
  				"3": {
  					"--loader-scale": [
-       "scale(1.75)"
+       "scale(1.75)",
  						"SP"
  					]
  				}
@@ -111,31 +111,31 @@
  			"values": {
  				"Center": {
  							"--loader-position": [
-         "(center)"
+         "(center)",
  						"SP"
  					]
  				},
  				"Top Left": {
  					"--loader-position": [
-       "(-160% -60%)"
+       "(-160% -60%)",
  						"SP"
  					]
  				},
  				"Top Right": {
  					"--loader-position": [
-       "(260% -60%)"
+       "(260% -60%)",
  						"SP"
  					]
  				},
  				"Bottom Left": {
  					"--loader-position": [
-       "(-160% 150%)"
+       "(-160% 150%)",
  						"SP"
  					]
  				},
  				"Bottom Right": {
  					"--loader-position": [
-       "(260% 150%)"
+       "(260% 150%)",
  						"SP"
  					]
  				}
