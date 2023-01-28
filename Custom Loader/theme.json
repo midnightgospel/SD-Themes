@@ -60,44 +60,44 @@
  			"default": "0",
  			"values": {
  				"-3": {
- 					"--loader-scale": [
-       "scale(0.25)",
+ 					"--loader-size": [
+       "50px",
  						"SP"
  					]
  				},
  				"-2": {
- 					"--loader-scale": [
-       "scale(0.50)",
+ 					"--loader-size": [
+       "75px",
  						"SP"
  					]
  				},
  				"-1": {
- 					"--loader-scale": [
-       "scale(0.75)",
+ 					"--loader-size": [
+       "100px",
  						"SP"
  					]
  				},
  				"0": {
- 					"--loader-scale": [
-       "scale(1)",
+ 					"--loader-size": [
+       "150px",
  						"SP"
  					]
  				},
  				"1": {
- 					"--loader-scale": [
-       "scale(1.25)",
+ 					"--loader-size": [
+       "200px",
  						"SP"
  					]
  				},
  				"2": {
- 					"--loader-scale": [
-       "scale(1.5)",
+ 					"--loader-size": [
+       "250px",
  						"SP"
  					]
  				},
  				"3": {
- 					"--loader-scale": [
-       "scale(1.75)",
+ 					"--loader-size": [
+       "300px",
  						"SP"
  					]
  				}
@@ -109,34 +109,66 @@
  			"default": "Center",
  			"values": {
  				"Center": {
- 							"--loader-position": [
-         "center",
- 						"SP"
+ 					"--loader-position": [
+					"center",
+					"SP"
  					]
  				},
  				"Top Left": {
  					"--loader-position": [
-       "-160% -60%",
+					"absolute",
  						"SP"
- 					]
+ 					],
+					"--loader-left": [
+					"25px",
+					"SP"
+					],
+					"--loader-top": [
+					"25px",
+					"SP"
+					]
  				},
  				"Top Right": {
  					"--loader-position": [
-       "260% -60%",
+					"absolute",
  						"SP"
- 					]
+ 					],
+					"--loader-right": [
+					"25px",
+					"SP"
+					],
+					"--loader-top": [
+					"25px",
+					"SP"
+					]
  				},
  				"Bottom Left": {
  					"--loader-position": [
-       "-160% 150%",
+					"absolute",
  						"SP"
- 					]
+ 					],
+					"--loader-left": [
+					"25px",
+					"SP"
+					],
+					"--loader-bottom": [
+					"25px",
+					"SP"
+					]
  				},
  				"Bottom Right": {
  					"--loader-position": [
-       "260% 150%",
+					"absolute",
  						"SP"
- 					]
+ 					],
+					"--loader-right": [
+					"25px",
+					"SP"
+					],
+					"--loader-bottom": [
+					"25px",
+					"SP"
+					]
  				}
  			},
  			"components": []

@@ -2,9 +2,13 @@
     background: var(--loader-color);
 }
 .loadingthrobber_Container_3sa1N img {
- content: var(--loader-image);
-	width: auto;
+	content: var(--loader-image);
+	width: var(--loader-size);
 	height: auto;
-	transform: var(--loader-scale);
-	transform-origin: var(--loader-position);
+	position: var(--loader-position);
+	right: var(--loader-right);
+	left: var(--loader-left);
+	top: var(--loader-top);
+	bottom: var(--loader-bottom);
+
 }
