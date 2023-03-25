@@ -3,12 +3,15 @@
 }
 .loadingthrobber_Container_3sa1N img {
 	content: var(--loader-image);
-	width: var(--loader-size);
-	height: auto;
 	position: var(--loader-position);
 	right: var(--loader-right);
 	left: var(--loader-left);
 	top: var(--loader-top);
 	bottom: var(--loader-bottom);
 
+}
+
+.loadingthrobber_Container_3sa1N img.loadingthrobber_Medium_39-WT {
+    width: var(--loader-size);
+    height: auto;
 }
