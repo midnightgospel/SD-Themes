@@ -2,7 +2,7 @@
  	"name": "Custom Loader",
  	"author": "Midnight",
  	"target": "Other",
- 	"version": "v1.0",
+ 	"version": "v1.1",
  	"description": "Adds the ability to change the loading screen of SteamOS. 3 Presets are included along with the ability to set and modify your own including background color. GIFs are supported and recommended. 240x240 images work best. Example folder included in images folder. Examples are to be used with black background.",
  	"manifest_version": 5,
  	"inject": {},
