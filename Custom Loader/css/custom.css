@@ -1,4 +1,5 @@
-.loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa {
+.loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa,
+.loadingthrobber_Container_3sa1N.loadingthrobber_ContainerBackground_2ngG3 {
     background: var(--loader-color) !important;
 }
 .loadingthrobber_Container_3sa1N img {
