@@ -1,0 +1,11 @@
+{
+	"name": "Succumb to the Lamb",
+	"author": "Midnight",
+	"target": "Other",
+	"version": "v1.0",
+	"description": "A Cult of the Lamb inspired theme.",
+	"manifest_version": 5,
+	"inject": {},
+	"dependencies": {},
+	"patches": {}
+}
