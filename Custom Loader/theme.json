@@ -3,176 +3,180 @@
  	"author": "Midnight",
  	"target": "Other",
  	"version": "v1.2.2",
-	"description": "Tired of the same old Steam spinning logo when loading your games? Want something a little more your style? Get this so you can change that. 3 presets are included, along with the ability to set and modify your own, including background color. GIFs and APNGs are supported and recommended. 240x240 images work best. Example folder included in the images folder. Examples are to be used with a black background.", 	
+	"description": "Update: 1.2.2 - Added fullscreen option. About: Tired of the same old Steam spinning logo when loading your games? Want something a little more your style? Get this so you can change that. 3 presets are included, along with the ability to set and modify your own, including background color. GIFs and APNGs are supported and recommended. 240x240 images work best. Example folder included in the images folder. Examples are to be used with a black background.", 	
 	"manifest_version": 8,
  	"inject": {},
  	"dependencies": {},
- 	"patches": {
- 		"Choose Loader": {
- 			"type": "dropdown",
- 			"default": "Loading Buddy",
- 			"values": {
- 				"Loading Buddy": {
- 					"css/loadingbuddy.css": [
- 						"SP"
- 					]
- 				},
- 				"Labs": {
- 					"css/labs.css": [
- 						"SP"
- 					]
- 				},
- 				"Cat": {
- 					"css/cat.css": [
- 						"SP"
- 					]
- 				},
- 				"Custom": {
- 					"css/custom.css": [
- 						"SP"
- 					]
- 				}
- 			},
- 			"components": [{
- 					"name": "Custom Image",
- 					"type": "image-picker",
- 					"on": "Custom",
- 					"default": "Custom Loader/images/loadingbuddy.gif",
- 					"css_variable": "loader-image",
- 					"tabs": [
- 						"SP"
- 					]
- 				},
- 				{
- 					"name": "Background Color",
- 					"type": "color-picker",
- 					"on": "Custom",
- 					"default": "#000000",
- 					"css_variable": "loader-color",
- 					"tabs": [
- 						"SP"
- 					]
- 				}
- 			]
- 		},
- 		"Custom Image Scale": {
- 			"type": "slider",
- 			"default": "0",
- 			"values": {
- 				"-3": {
- 					"--loader-size": [
-       "50px",
- 						"SP"
- 					]
- 				},
- 				"-2": {
- 					"--loader-size": [
-       "75px",
- 						"SP"
- 					]
- 				},
- 				"-1": {
- 					"--loader-size": [
-       "100px",
- 						"SP"
- 					]
- 				},
- 				"0": {
- 					"--loader-size": [
-       "150px",
- 						"SP"
- 					]
- 				},
- 				"1": {
- 					"--loader-size": [
-       "200px",
- 						"SP"
- 					]
- 				},
- 				"2": {
- 					"--loader-size": [
-       "250px",
- 						"SP"
- 					]
- 				},
- 				"3": {
- 					"--loader-size": [
-       "300px",
- 						"SP"
- 					]
- 				}
- 			},
- 			"components": []
- 		},
- 		"Custom Image Location For Small GIFs": {
- 			"type": "dropdown",
- 			"default": "Center",
- 			"values": {
- 				"Center": {
- 					"--loader-position": [
-					"center",
-					"SP"
- 					]
- 				},
- 				"Top Left": {
- 					"--loader-position": [
-					"absolute",
- 						"SP"
- 					],
+"patches": {
+		"Choose Loader": {
+			"type": "dropdown",
+			"default": "Loading Buddy",
+			"values": {
+				"Loading Buddy": {
+					"css/loadingbuddy.css": [
+						"SP"
+					]
+				},
+				"Labs": {
+					"css/labs.css": [
+						"SP"
+					]
+				},
+				"Cat": {
+					"css/cat.css": [
+						"SP"
+					]
+				},
+				"Custom": {
+					"css/custom.css": [
+						"SP"
+					]
+				}
+			},
+			"components": [
+				{
+					"name": "Custom Image",
+					"type": "image-picker",
+					"on": "Custom",
+					"default": "Custom Loader/images/loadingbuddy.gif",
+					"css_variable": "loader-image",
+					"tabs": [
+						"SP"
+					]
+				}
+			]
+		},
+		"Fullscreen": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"--loader-size": [
+						"100%",
+						"SP"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Custom Image Scale": {
+			"type": "slider",
+			"default": "0",
+			"values": {
+				"-3": {
+					"--loader-size": [
+						"50px",
+						"SP"
+					]
+				},
+				"-2": {
+					"--loader-size": [
+						"75px",
+						"SP"
+					]
+				},
+				"-1": {
+					"--loader-size": [
+						"100px",
+						"SP"
+					]
+				},
+				"0": {
+					"--loader-size": [
+						"150px",
+						"SP"
+					]
+				},
+				"1": {
+					"--loader-size": [
+						"200px",
+						"SP"
+					]
+				},
+				"2": {
+					"--loader-size": [
+						"250px",
+						"SP"
+					]
+				},
+				"3": {
+					"--loader-size": [
+						"300px",
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Custom Image Location For Small GIFs": {
+			"type": "dropdown",
+			"default": "Center",
+			"values": {
+				"Center": {
+					"--loader-position": [
+						"center",
+						"SP"
+					]
+				},
+				"Top Left": {
+					"--loader-position": [
+						"absolute",
+						"SP"
+					],
 					"--loader-left": [
-					"25px",
-					"SP"
+						"25px",
+						"SP"
 					],
 					"--loader-top": [
-					"25px",
-					"SP"
+						"25px",
+						"SP"
 					]
- 				},
- 				"Top Right": {
- 					"--loader-position": [
-					"absolute",
- 						"SP"
- 					],
+				},
+				"Top Right": {
+					"--loader-position": [
+						"absolute",
+						"SP"
+					],
 					"--loader-right": [
-					"25px",
-					"SP"
+						"25px",
+						"SP"
 					],
 					"--loader-top": [
-					"25px",
-					"SP"
+						"25px",
+						"SP"
 					]
- 				},
- 				"Bottom Left": {
- 					"--loader-position": [
-					"absolute",
- 						"SP"
- 					],
+				},
+				"Bottom Left": {
+					"--loader-position": [
+						"absolute",
+						"SP"
+					],
 					"--loader-left": [
-					"25px",
-					"SP"
+						"25px",
+						"SP"
 					],
 					"--loader-bottom": [
-					"25px",
-					"SP"
+						"25px",
+						"SP"
 					]
- 				},
- 				"Bottom Right": {
- 					"--loader-position": [
-					"absolute",
- 						"SP"
- 					],
+				},
+				"Bottom Right": {
+					"--loader-position": [
+						"absolute",
+						"SP"
+					],
 					"--loader-right": [
-					"25px",
-					"SP"
+						"25px",
+						"SP"
 					],
 					"--loader-bottom": [
-					"25px",
-					"SP"
+						"25px",
+						"SP"
 					]
- 				}
- 			},
- 			"components": []
- 		}
-
- 	}
- }
+				}
+			},
+			"components": []
+		}
+	}
+}
