@@ -177,6 +177,26 @@
 				}
 			},
 			"components": []
+		},
+		"Change Background Color": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {},
+				"No": {}
+			},
+			"components": [
+				{
+					"name": "Background Color",
+					"type": "color-picker",
+					"on": "Yes",
+					"default": "#000000",
+					"css_variable": "--loader-color",
+					"tabs": [
+						"SP"
+					]
+				}
+			]
 		}
 	}
 }
