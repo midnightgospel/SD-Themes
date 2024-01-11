@@ -3,7 +3,7 @@
  	"author": "Midnight",
  	"target": "Other",
  	"version": "v1.3.1",
-	"description": "Update: 1.3 - Added fullscreen option. About: Tired of the same old Steam spinning logo when loading your games? Want something a little more your style? Get this so you can change that. 3 presets are included, along with the ability to set and modify your own, including background color. GIFs and APNGs are supported and recommended. 240x240 images work best. Example folder included in the images folder. Examples are to be used with a black background.", 	
+	"description": "Update: 1.3 - Added fullscreen option. About: Tired of the same old Steam spinning logo when loading your games? Want something a little more your style? Get this so you can change that. 3 presets are included, along with the ability to set and modify your own, including background color. GIFs and APNGs are supported and recommended. 240x240 images work best. Example folder included in the images folder. Examples are to be used with a black background. Note: In order to use your own custom GIFs, you will need to place your GIF under the theme's folder. I have added a folder in there where you can place them", 	
 	"manifest_version": 8,
  	"inject": {},
  	"dependencies": {},
