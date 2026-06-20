@@ -12,8 +12,8 @@
 			"type": "dropdown",
 			"default": "Loading Buddy",
 			"values": {
-				"Loading Buddy": {
-					"css/loadingbuddy.css": [
+				"Cat": {
+					"css/cat.css": [
 						"SP"
 					]
 				},
@@ -22,8 +22,8 @@
 						"SP"
 					]
 				},
-				"Cat": {
-					"css/cat.css": [
+				"Loading Buddy": {
+					"css/loadingbuddy.css": [
 						"SP"
 					]
 				},
@@ -38,7 +38,7 @@
 					"name": "Custom Image",
 					"type": "image-picker",
 					"on": "Custom",
-					"default": "Custom Loader/images/loadingbuddy.gif",
+					"default": "Custom-Loader/images/loadingbuddy.gif",
 					"css_variable": "loader-image",
 					"tabs": [
 						"SP"
