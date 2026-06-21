@@ -27,6 +27,11 @@
 						"SP"
 					]
 				},
+				"Steam-Logo-Animated": {
+					"css/Steam-Logo-Animated.css": [
+						"SP"
+					]
+				},
 				"Custom": {
 					"css/custom.css": [
 						"SP"
